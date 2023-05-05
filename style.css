@@ -264,6 +264,15 @@ clip-path: polygon(35% 0, 100% 0, 100% 50%, 59% 70%);
     }
 
 
+.navbar-right .transparent-button
+  {
+    border-radius: 3px;
+    margin-right: 1vw;
+}
+
+.navbar-right .green-button {
+  border-radius: 3px;
+}
     
     /* NAV MENU */
 
@@ -360,10 +369,13 @@ clip-path: polygon(35% 0, 100% 0, 100% 50%, 59% 70%);
       background-color: transparent;
       border: 1px solid black;
     }
+
+.header h2 {
+  font-size: 2em;
+}
+
 .wide { 
-  padding-left: 100px;
-  padding-right: 100px;
-  margin: 50px;
+min-width: 14vw;
 
 }
 
@@ -371,8 +383,8 @@ clip-path: polygon(35% 0, 100% 0, 100% 50%, 59% 70%);
     display: flex;
     flex-direction: row;
     flex: 1;
-    justify-content: space-evenly;
-    line-height: 2em;
+    justify-content: space-around;
+     line-height: 2em;
    
   }
 
@@ -382,17 +394,16 @@ clip-path: polygon(35% 0, 100% 0, 100% 50%, 59% 70%);
 	flex-wrap: nowrap;
 	justify-content: center;
 	align-items: stretch;
-	margin-bottom: 100px;
+	margin-bottom: 10em;
   gap: 5%;
-
 }
 
 #workflow {
-  margin-top: 30px;
+  margin-top: 3em;
   background-color: #fff;
   box-shadow: #ccc 1px 1px 20px;
-  padding: 30px 50px 30px 50px;
-  min-width: 25vw ;
+  padding: 3em 4em 3em 4em;
+  width: 30vw ;
 }
 
 #workflow h3 {
@@ -426,8 +437,12 @@ clip-path: polygon(35% 0, 100% 0, 100% 50%, 59% 70%);
 
 
 #price {
-  font-size:2em;
+  font-size:3em;
   font-weight: 800;
+}
+
+#small {
+  font-size: 0.5em;
 }
 
 #month {
@@ -441,18 +456,18 @@ vertical-align: text-bottom;
   display: flex;
 	flex-direction: column;
   align-items: center;
+  margin-bottom: 20vh;
 }
 
 
 .addon-box{
   box-shadow: #ccc 1px 1px 20px;
-  padding: 10px 10px 10px 10px;
-  margin-bottom: 5px;
+  margin: 0.5vh;
   display: flex;
-  width:50%;
+  width: 50vw;
   justify-content: space-between;
   background-color: #fff;
-  padding: 30px 30px 30px 30px;
+  padding: 2.5em;
 }
 
 .addon-box-left h3{
@@ -481,7 +496,7 @@ vertical-align: text-bottom;
 	flex-wrap: nowrap;
 	justify-content: space-around;
   background-color: #f3fbff;
-  width: 50%;
+  width: 50vw;
 }
 
 .yourbusiness-block{
@@ -507,22 +522,24 @@ font-size: 2em;
 .faq-dropdown {
   display: flex;
 	flex-direction: column;
-	flex-wrap: nowrap;
+	flex-wrap: wrap;
 	justify-content: flex-start;
 	align-items: center;
 	align-content: stretch;
   margin-bottom: 10vh;
+
 }
 
 #FAQ h2 {
-  margin: 50px 0 50px 0;
+  margin: 7vh;
+  font-size: 1.8em;
 }
 
 #dropdown {
   display: flex;
 	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: space-evenly;
+	flex-wrap: wrap;
+	justify-content: space-between;
 	align-items: center;
 	align-content: stretch;
   margin: 0.8em;
@@ -559,9 +576,11 @@ font-size: 2em;
     flex-wrap: wrap;
   }
   #workflow {
-    min-width: 80%;
+    min-width: 80vw;
   }
-
+.addon-box {
+  min-width: 80vw;
+}
 
 }
 
@@ -575,4 +594,4 @@ font-size: 2em;
     width: 100%;
     border-top: 1px solid #333;
   }
- 
+}
