@@ -391,6 +391,7 @@ clip-path: polygon(35% 0, 100% 0, 100% 50%, 59% 70%);
   background-color: #fff;
   box-shadow: #ccc 1px 1px 20px;
   padding: 30px 50px 30px 50px;
+  min-width: 25vw ;
 }
 
 #workflow h3 {
@@ -539,3 +540,28 @@ font-size: 2em;
 .left-block h3 {
   margin-bottom: 3em;
 }
+
+
+
+@media only screen and (max-width: 900px) {
+  .plans-box {
+    flex-wrap: wrap;
+  }
+  #workflow {
+    min-width: 80%;
+  }
+
+
+}
+
+
+/* [ON SMALL SCREENS] */
+@media screen and (max-width: 768px){
+  /* (A) BREAK INTO VERTICAL MENU */
+  #hamitems a {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    border-top: 1px solid #333;
+  }
+ 
