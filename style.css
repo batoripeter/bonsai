@@ -558,15 +558,3 @@ font-size: 2em;
 }
 
 }
-
-
-/* [ON SMALL SCREENS] */
-@media screen and (max-width: 768px){
-  /* (A) BREAK INTO VERTICAL MENU */
-  #hamitems a {
-    box-sizing: border-box;
-    display: block;
-    width: 100%;
-    border-top: 1px solid #333;
-  }
-}
