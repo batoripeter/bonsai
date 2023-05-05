@@ -513,14 +513,14 @@ font-size: 2em;
 #dropdown {
   display: flex;
 	flex-direction: row;
-	flex-wrap: wrap;
+	flex-wrap: no-wrap;
 	justify-content: space-between;
 	align-items: center;
 	align-content: stretch;
   margin: 0.8em;
 }
 
-#dropdown p {margin-right: 300px;}
+#dropdown p {margin-right: 30vw;}
 
 .triple-block {
   display: flex;
