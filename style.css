@@ -114,31 +114,6 @@ clip-path: polygon(35% 0, 100% 0, 100% 50%, 59% 70%);
   transform: rotate(45deg);
 }
 
-/* bottom left*/
-.ribbon-bottom-left {
-  bottom: -10px;
-  left: -10px;
-}
-.ribbon-bottom-left::before,
-.ribbon-bottom-left::after {
-  border-bottom-color: transparent;
-  border-left-color: transparent;
-}
-.ribbon-bottom-left::before {
-  bottom: 0;
-  right: 0;
-}
-.ribbon-bottom-left::after {
-  top: 0;
-  left: 0;
-}
-.ribbon-bottom-left span {
-  right: -25px;
-  bottom: 30px;
-  transform: rotate(225deg);
-}
-
-
 .ribbon span {
   position: absolute;
   display: block;
@@ -223,7 +198,7 @@ clip-path: polygon(35% 0, 100% 0, 100% 50%, 59% 70%);
   
   input:checked + .slider {
     background-color: #00b289;
-  }
+      }
   
   input:focus + .slider {
     box-shadow: 0 0 10px #0b2893;
