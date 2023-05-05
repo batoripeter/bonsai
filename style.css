@@ -260,6 +260,7 @@ clip-path: polygon(35% 0, 100% 0, 100% 50%, 59% 70%);
     display: flex;
     list-style:none;
     justify-content: space-between;
+    padding-left: 20vw;
     }
 
 
@@ -398,6 +399,16 @@ clip-path: polygon(35% 0, 100% 0, 100% 50%, 59% 70%);
   font-size: 1.2em;
   font-weight: 900;
   padding: 1vw;
+}
+
+#workflow ul {
+  list-style: none;
+ 
+}
+
+#workflow ul li:before {
+  content: '✓';
+  color: #00b289;
 }
 
 #workflow li {
